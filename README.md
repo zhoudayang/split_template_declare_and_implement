@@ -6,7 +6,7 @@
 
 #### include 分离
 
-在头文件中定义，将实现定义在tpp文件中，并且在头文件末尾引入这个tpp文件。见: tpp/_version 分支
+在头文件中定义，将实现定义在tpp文件中，并且在头文件末尾引入这个tpp文件。见: tpp\_version 分支
 
 >致谢：　[参考](http://www.jianshu.com/p/3a7a41d46645)
 
