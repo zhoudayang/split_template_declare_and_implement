@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-//总结:在头文件中声明，在cpp文件中实现，并且显示实例化需要的类型。但是只能够使用那些显示实例化之后的类型。
+//总结:在头文件中声明，在cpp文件中实现，在头文件末尾通过include 引入实现
 int main() {
     MemoryCell<int> m1;
     MemoryCell<double> m2{3.14};

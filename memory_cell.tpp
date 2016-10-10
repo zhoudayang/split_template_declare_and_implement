@@ -17,9 +17,3 @@ void MemoryCell<Object>::write(const Object &x) {
     storedValue = x;
 }
 
-//类模板显示实例化
-template
-class MemoryCell<int>;
-
-template
-class MemoryCell<double>;
