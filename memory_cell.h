@@ -12,7 +12,7 @@ class MemoryCell {
 public:
     explicit MemoryCell(const Object &initialValue = Object{});
 
-    const Object  & read() const;
+    Object read() const;
 
     void write(const Object &x);
 
