@@ -8,7 +8,7 @@ MemoryCell<Object>::MemoryCell(const Object &initialValue) :
         storedValue(initialValue) { }
 
 template<typename Object>
-const Object & MemoryCell<Object>::read() const {
+Object MemoryCell<Object>::read() const {
     return storedValue;
 }
 
